@@ -1,0 +1,16 @@
+div {
+  width: 330px;
+  height: 300px;
+  background-image: url(https://assets.pokemon.com/static2/_ui/img/og-default-image.jpeg);
+  background-size: cover;
+}
+div p {
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  text-align: center;
+}
+
+.na {
+  background-color: red;
+}
