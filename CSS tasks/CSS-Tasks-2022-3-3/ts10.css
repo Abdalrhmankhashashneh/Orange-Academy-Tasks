@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(255, 242, 208);
+}
+div {
+  display: inline-block;
+  width: 90%;
+  height: 280px;
+  margin: 20px;
+  padding: 10px;
+}
+.div1 {
+  background-color: rgb(211, 205, 193);
+  border: 3px solid black;
+}
+.div3 {
+  background-color: rgb(211, 205, 193);
+  border: 3px solid black;
+  color: rgb(49, 14, 82);
+}
+.span {
+  background-color: yellow;
+}
+span {
+  background-color: orange;
+}
+.div2 {
+  border-style: dashed;
+}
+.div2 section {
+  border-style: dashed;
+  border-color: red;
+  display: inline-block;
+}

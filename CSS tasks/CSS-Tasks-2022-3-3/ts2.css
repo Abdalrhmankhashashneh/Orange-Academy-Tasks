@@ -1,0 +1,14 @@
+.smal-div {
+  display: inline;
+  width: 50px;
+  padding: 2px;
+  margin: 3px;
+  border-bottom: 4px outset;
+  border-right: 4px outset;
+  border-left: 1px solid;
+  border-top: 1px solid;
+  border-radius: 6px;
+}
+.big-div {
+  margin-top: 10px;
+}
