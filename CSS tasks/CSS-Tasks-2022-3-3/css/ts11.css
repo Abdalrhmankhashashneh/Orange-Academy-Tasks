@@ -8,9 +8,9 @@ div {
 }
 .main-conntener {
   background-color: aliceblue;
-  width: 50%;
+  width: 55%;
   height: 700px;
-  margin-left: calc(50% - 400px);
+  margin-left: 20%;
   margin-top: 20px;
 }
 .Top {
@@ -24,6 +24,7 @@ div {
   width: 50%;
   height: 100%;
   padding: 20px;
+  overflow-x: hidden;
 }
 .col2 {
   background-color: rgb(198, 198, 199);
