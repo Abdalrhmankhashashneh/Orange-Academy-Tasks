@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+.main {
+  background-color: rgb(104, 10, 10);
+  width: 100px;
+  height: 200px;
+  padding: 8px 4px;
+}
+.cel1,
+.cel2,
+.cel3 {
+  border: 4px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 100%;
+  border: 4px solid black;
+  margin: 10px;
+
+  animation: 6s An1 infinite;
+}
+
+.light {
+  --c: yellow;
+}
+
+.dark {
+  --c: darkblue;
+}
+
+.box {
+  height: 100px;
+  margin: 5px;
+  box-shadow: 0 0 5px var(--c);
+  color: #fff;
+  animation: pulseColorGreenMkt 1s infinite linear alternate;
+}
+
+@keyframes pulseColorGreenMkt {
+  0% {
+    background-color: var(--c);
+  }
+  100% {
+    background-color: black;
+  }
+}

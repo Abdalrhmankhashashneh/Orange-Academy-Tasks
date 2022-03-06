@@ -1,0 +1,46 @@
+.box {
+  display: inline-block;
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: An 3s infinite;
+}
+@keyframes An {
+  0% {
+    top: 0px;
+    left: 0px;
+    background: rgb(0, 0, 0);
+    border: 4 solid black;
+    border-radius: 1px;
+  }
+  25% {
+    top: 0px;
+    left: 500px;
+    background: rgb(255, 255, 255);
+    border: 4 solid black;
+    border-radius: 50px;
+  }
+  50% {
+    top: 500px;
+    left: 500px;
+    background: rgb(0, 0, 0);
+    border: 4 solid black;
+    border-radius: 50px;
+  }
+  75% {
+    top: 500px;
+    left: 0px;
+    background: rgb(255, 255, 255);
+
+    border-radius: 50px;
+    border: 4 solid black;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    background: red;
+    border: 4 solid black;
+    border-radius: 1px;
+  }
+}

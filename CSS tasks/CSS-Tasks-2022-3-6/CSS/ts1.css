@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+.box1 {
+  transition: 4s;
+  width: 100px;
+  height: 100px;
+  transition: 4s;
+  transition-property: width, height;
+  background-color: brown;
+}
+.box2 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(0, 110, 255);
+  transition: 4s;
+  transition-property: width, height;
+}
+
+.box1:hover {
+  width: 400px;
+  background-color: aqua;
+  transition: 4s;
+}
+.box2:hover {
+  background-color: aqua;
+  width: 250px;
+  height: 350px;
+}

@@ -1,0 +1,37 @@
+.box {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  border: 4px solid black;
+  border-radius: 25px;
+  animation: 3s An infinite;
+}
+
+@keyframes An {
+  0% {
+    left: 0px;
+    top: 0px;
+    background-image: linear-gradient(red, yellow);
+  }
+  25% {
+    left: 400px;
+    top: 0px;
+    background-image: linear-gradient(rgb(255, 77, 77), rgb(104, 10, 91));
+  }
+  50% {
+    left: 400px;
+    top: 400px;
+    background-image: linear-gradient(rgb(0rgb (255, 255, 1)), yellow);
+  }
+  75% {
+    left: 0px;
+    top: 400px;
+    background-image: linear-gradient(rgb(1, 15, 95), yrgb(2, 243, 171));
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+    background-image: linear-gradient(rgb(185, 65, 65), rgb(231, 231, 139));
+  }
+}
