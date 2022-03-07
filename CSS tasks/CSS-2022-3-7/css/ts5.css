@@ -1,26 +1,29 @@
+body {
+  display: flex;
+  justify-content: center;
+}
 #main {
   display: grid;
-  grid-template-columns: repeat(3, calc(3, 3 / 100%));
-  grid-template-rows: 150px 300px 150px;
+  grid-template-columns: repeat(3, 250px);
+  grid-template-rows: 140px 300px 250px;
   grid-gap: 5px;
 }
 .div {
   grid-column-start: span 3;
-  grid-row-start: 1;
+
   background-color: black;
 }
 .div1 {
-  background-color: blue;
+  background-color: orange;
   grid-column-start: span 2;
-  grid-row-start: 2;
 }
 .div2 {
   grid-column-start: span 1;
-  grid-row-start: 2;
-  background-color: darkgoldenrod;
+
+  background-color: green;
 }
 .div3 {
   grid-column-start: span 3;
-  grid-row-start: 3;
-  background-color: orange;
+
+  background-color: blue;
 }
