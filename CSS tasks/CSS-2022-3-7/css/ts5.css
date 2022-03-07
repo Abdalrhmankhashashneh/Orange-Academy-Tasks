@@ -1,0 +1,26 @@
+#main {
+  display: grid;
+  grid-template-columns: repeat(3, calc(3, 3 / 100%));
+  grid-template-rows: 150px 300px 150px;
+  grid-gap: 5px;
+}
+.div {
+  grid-column-start: span 3;
+  grid-row-start: 1;
+  background-color: black;
+}
+.div1 {
+  background-color: blue;
+  grid-column-start: span 2;
+  grid-row-start: 2;
+}
+.div2 {
+  grid-column-start: span 1;
+  grid-row-start: 2;
+  background-color: darkgoldenrod;
+}
+.div3 {
+  grid-column-start: span 3;
+  grid-row-start: 3;
+  background-color: orange;
+}

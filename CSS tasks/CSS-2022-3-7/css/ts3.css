@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+#main {
+  width: 70%;
+  border: 3px solid black;
+
+  display: flex;
+  color: white;
+  flex-wrap: wrap;
+}
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.b6,
+.b7,
+.b8,
+.b9,
+.b10 {
+  width: calc(100% / 4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80pt;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.b1 {
+  background-color: green;
+}
+.b2 {
+  background-color: yellow;
+}
+.b3 {
+  background-color: blueviolet;
+}
+.b4 {
+  background-color: darkgrey;
+}
+.b5 {
+  background-color: blue;
+}
+.b6 {
+  background-color: orange;
+}
+.b7 {
+  background-color: rgb(236, 184, 197);
+}
+.b8 {
+  background-color: rgb(255, 0, 0);
+}
+.b9 {
+  background-color: rgb(161, 7, 7);
+}
+.b10 {
+  background-color: rgb(9, 7, 114);
+}
