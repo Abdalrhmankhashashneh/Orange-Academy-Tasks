@@ -1,3 +1,10 @@
-body {
+* {
   background-color: blueviolet;
+}
+div {
+  display: inline-block;
+  background-color: aqua;
+  color: brown;
+  min-height: 500px;
+  width: 50%;
 }
