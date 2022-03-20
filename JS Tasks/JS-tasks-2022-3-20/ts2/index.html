@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1 JS </title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <input type="text" id="test">
+    <input type="submit" onclick="abood()" value="Submit">
+
+
+    <script>
+
+        function abood() {
+            var input = parseInt(document.getElementById("test").value);
+            var G;
+            switch (parseInt(input / 10)) {
+                case 0: { }
+                case 1: { }
+                case 2: { }
+                case 3: { }
+                case 4: {
+                    G = "your grade is :  Fall (I O I) "
+                    break;
+                }
+                case 5: {
+                    G = "your grade is :  E ^_~"
+                    break;
+                }
+                case 6: {
+                    G = "your grade is :  D  O.O"
+                    break;
+                }
+                case 7: {
+                    G = "your grade is :  C ^_^ "
+                    break;
+                }
+                case 8: {
+                    G = "your grade is :  B  (*/ω＼*)"
+                    break;
+                }
+                case 9: {
+                    G = "your grade is :  A  (^///^) "
+                    break;
+                }
+                case 10: {
+                    G = "your grade is :  A  (^///^) "
+                    break;
+                }
+
+                default: {
+                    G = " good luck try again :) ";
+                }
+            }
+
+            window.alert(G);
+
+        }
+    </script>
+
+</body>
+
+</html>
