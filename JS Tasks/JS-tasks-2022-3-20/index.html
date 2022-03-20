@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1 JS </title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <input type="text" id="test">
+    <input type="submit" onclick="abood()" value="Submit">
+
+
+    <script>
+
+        function abood() {
+            var input = document.getElementById("test").value;
+            var day;
+            switch (input) {
+                case '1': {
+                    day = "Welcome to Saturday"
+                    break;
+                }
+                case '2': {
+                    day = "Welcome to Sunday"
+                    break;
+                }
+                case '3': {
+                    day = "Welcome to Monday"
+                    break;
+                }
+                case '4': {
+                    day = "Welcome to Tuesday"
+                    break;
+                }
+                case '5': {
+                    day = "Welcome to Wedesday"
+                    break;
+                }
+                case '6': {
+                    day = "Welcome to Thursday"
+                    break;
+                }
+                case '7': {
+                    day = "Welcome to Friday"
+                    break;
+                }
+                default: {
+                    day = " good luck try again :) ";
+                }
+            }
+
+            window.alert(day);
+
+        }
+    </script>
+
+</body>
+
+</html>
