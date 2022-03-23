@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+
+<body>
+    <script>
+
+
+        /* 1. Write a JavaScript program that accept two integers and
+         * display the larger. Go to the editor */
+        /******* Start Your Code *********/
+        function max(a) {
+            var max = a[0];
+            for (i = 0; i < a.length; i++) {
+                if (max < a[i]) {
+                    max = a[i];
+                }
+
+            }
+            return max;
+        }
+        var nums = [10, -100, 5, 9, 9, 2, 3];
+        document.write(max(nums))
+        window.alert(max(nums))
+
+        /******* End Your Code ********* */
+
+        /* 2. Write a JavaScript conditional statement to find the sign
+         of product of three numbers. Display an alert box with the 
+         specified sign. Go to the editor 
+        Sample numbers : 3, -7, 2 
+        Output : The sign is - */
+        /******* Start Your Code *********/
+        function sign(a) {
+            var x = a[0];
+            var s = ' '
+            for (i = 1; i < a.length; i++) {
+                x *= a[i];
+            }
+            if (x < 0) {
+                s = ' - '
+            }
+            else {
+                s = ' + '
+            }
+
+
+            return s;
+        }
+        document.write('<br> ' + sign(nums));
+        window.alert(sign(nums))
+
+
+        /******* End Your Code ********* */
+
+        /* 3. Write a JavaScript conditional statement to sort three numbers. Display an alert box to show the result. Go to the editor
+        Sample numbers : 0, -1, 4 
+        Output : 4, 0, -1 */
+        /******* Start Your Code *********/
+        var nums = [10, -100, 5, 9, 9, 2, 3];
+        function sort(a) {
+            var max = Number.NEGATIVE_INFINITY;
+            var sorted = [];
+            var index = 0;
+
+            for (i = 0; i < a.length; i++) {
+                for (j = 0; j < a.length; j++) {
+
+                    if (max < a[j]) {
+                        max = a[j];
+                        index = j;
+                    }
+                }
+
+                sorted = max;
+                a[index] = Number.NEGATIVE_INFINITY;
+                max = Number.NEGATIVE_INFINITY;
+            }
+
+            return sorted;
+        }
+        document.write('<br> ' + sort(nums));
+
+        /******* End Your Code ********* */
+
+
+        /*4. Write a JavaScript conditional statement to find the largest of five numbers.
+        Display an alert box to show the result. Go to the editor 
+        Sample numbers : -5, -2, -6, 0, -1 
+        Output : 0 */
+
+        /******* Start Your Code *********/
+        var nums = [1, 555, 58, 6]
+        window.alert(max(nums))
+
+
+
+
+        /******* End Your Code ********* */
+
+        /* 5.Write the if statement to display "Hello World" if x is greater than y, otherwise alert "Goodbye".*/
+        /******* Start Your Code *********/
+        var x = 5;
+        var y = 7;
+        if (x > y) {
+            document.write("<br> Hello World")
+        }
+        else {
+            window.alert("Goodbye")
+        }
+        /******* End Your Code ********* */
+
+
+    </script>
+
+</body>
+
+</html>
