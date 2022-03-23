@@ -1,0 +1,12 @@
+#main {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: yellow;
+color: black;
+transition: 1s;
+font-size: 20pt;
+width: 30%;
+min-height: 20vh;
+font-weight: bold;
+}

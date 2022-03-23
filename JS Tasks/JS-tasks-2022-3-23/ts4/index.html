@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript task 1</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="contener">
+        <div class="contant">
+            <select name="" id="fontfamily" onchange="change()">
+                <option value="font">font</option>
+                <option value="'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Gill</option>
+                <option value="Arial, Helvetica, sans-serif">Arial</option>
+                <option value="Verdana, Geneva, Tahoma, sans-serif">Verdana</option>
+                <option value="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Segoe UI</option>
+            </select>
+
+
+
+            <input type="number" value="20" onchange="sizef()" id="si">
+
+
+            font
+            <label for="italic"> italic</label>
+            <input type="checkbox" onclick="fontstyle1()" id="italic">
+
+
+            <label for="bold"> bold</label>
+            <input type="checkbox" onclick="fontstyle2()" id="bold">
+
+
+            <label for="underline"> underline</label>
+            <input type="checkbox" onclick="fontstyle3()" id="underline">
+
+
+        </div>
+    </div>
+    <div id="main">Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Eligendi consequuntur est explicabo totam nam ea optio, quo amet, consequatur expedita nobis quod, magnam
+        error asperiores impedit laboriosam in assumenda quisquam?</div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

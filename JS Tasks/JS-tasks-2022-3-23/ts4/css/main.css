@@ -1,0 +1,25 @@
+#main {
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 5%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+color: black;
+transition: 1s;
+width: 90%;
+min-height: 20vh;
+
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contener{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    background-color: bisque;
+    width: 100%;
+}
